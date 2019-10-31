@@ -287,7 +287,7 @@ Completion of the Python tracks on [DataCamp](https://www.datacamp.com) will be 
 
 Grading the __final project__ will be done using the following rubric:
 
-* Project description / Specification
+* Project description / Specification (This will change substantially)
 
   - Goals unclear, difficulty demonstrating functionality (1-3)
   - Goals for the project and functionality are discussed but difficult to follow (4-6)
@@ -307,14 +307,22 @@ Grading the __final project__ will be done using the following rubric:
   - The code is fairly easy to read (7-9)
   - The code is well organized and very easy to read (10-12)
 
-* Reusability
+* Reusability 
+
+(This component will have a larger portion of the grade)
 
   - The code is not organized for reusability (1-3)
   - Some parts of the code could be reused (4-6)
   - Most of the code could be reused (7-9)
   - Each part of the code, and the whole, could be reused (10-12)
 
-* Performance
+* Testing
+  - Tests should cover a large fraction of the python code used.
+  - Marks will not necessarily be lost for failing tests
+
+* Performance 
+ 
+(This component will be changed substantially to emphasize reproducibility)
 
   - Program does not run (1-6)
   - Program runs, but does not produce correct output (7-12)
