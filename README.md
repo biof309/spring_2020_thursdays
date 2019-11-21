@@ -280,51 +280,43 @@ Grading
 
 The emphasis of the course is on learning and mastering the skills covered. We hope that everyone will be able to complete one of the Python tracks on [DataCamp](https://www.datacamp.com) and submit a final project via [GitHub](https://github.com/). If some of the material appears unclear, please ask for clarification.
 
-Completion of the Python tracks on [DataCamp](https://www.datacamp.com) will be graded in a binary manner (completed/incomplete).
+Some details regarding the final project:
+
++ Record your plans on github as you go
++ Try to show weekly improvement (on github)
++ Pay attention to what your minimally viable product is.
++ Not creating a package is acceptable but must be justified.
++ Joint projects looked on favorably.
++ Breadth of python skills will be noted.
++ Having commits from instructors is fine (though you don't get points for such beautiful code).
++ Pick a project that is interesting to you. You’ll find it easier to work on if you think it is fun or solves a problem that you have encountered in your daily work. Regarding content the sky is the limit.
 
 Grading the __final project__ will be done using the following rubric:
 
-* Project description / Specification (This will change substantially)
+### Project description / Specification
+  - Goals for the project are discussed and placed in the context of pre-existing work. This could take the form of other python projects or indeed software in any  language. Not reinventing the wheel is an important result of good planning   (0-5)
 
-  - Goals unclear, difficulty demonstrating functionality (1-3)
-  - Goals for the project and functionality are discussed but difficult to follow (4-6)
-  - Goals for the project and functionality are discussed (7-9)
-  - Goals for the project and functionality are logically presented and clearly communicated (10-12)
+### Documentation
+  - Only comments embedded in the code (0-5)
+  - Objects and methods have docstrings (6-10)
+  - Documentation is thorough both in the readme and in the code itself(11-15)
+  
+### Readability and reusability
+  - The code is poorly organized and difficult to interpret (1-10)
+  - Basic organization and modularity of the code is present (11-20)
+  - Careful organization of the code (commented, well-named variables in well-named functions in well-named modules, in a package if appropriate), coupled with attention to style guides for python. (21-30)
 
-* Documentation
+### Testing
+   Marks will not necessarily be lost for failing tests.
+  - Tests should cover a significant fraction of the python code used. (0-10)
+  - Tests have aided development and have helped discover bugs in the code (11-20)
 
-  - Only comments embedded in the code (1-3)
-  - Objects and methods have docstrings (4-6)
-  - Objects and methods have docstrings, additional standalone documentation (7-9)
-  - Objects and methods have docstrings, extensive standalone documentation with example usage (10-12)
+### "The product"
+   - The code technically works but does not show evidence of engagement (1-5)
+  - The project checks the boxes in the rubric effectively and is nicely implemented (6-10)
+  - The code attempts to solve a real-life problem, shows great progress both inside and outside class over the weeks of the project (11-20)
+  - The project is a roaring success. It's amazing to see what you can now do with python! You have earned the title of pythonista (21-30)
 
-* Readability
-  - The code is poorly organized and very difficult to read (1-3)
-  - The code is readable, but challenging to understand (4-6)
-  - The code is fairly easy to read (7-9)
-  - The code is well organized and very easy to read (10-12)
-
-* Reusability 
-
-(This component will have a larger portion of the grade)
-
-  - The code is not organized for reusability (1-3)
-  - Some parts of the code could be reused (4-6)
-  - Most of the code could be reused (7-9)
-  - Each part of the code, and the whole, could be reused (10-12)
-
-* Testing
-  - Tests should cover a large fraction of the python code used.
-  - Marks will not necessarily be lost for failing tests
-
-* Performance 
- 
-(This component will be changed substantially to emphasize reproducibility)
-
-  - Program does not run (1-6)
-  - Program runs, but does not produce correct output (7-12)
-  - Program runs, produces correct output under most conditions (13-18)
-  - Program runs, produces correct output with robust error checking (19-24)
 
 Course Materials
 ----------------
