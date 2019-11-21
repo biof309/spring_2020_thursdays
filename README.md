@@ -161,16 +161,13 @@ Schedule
 | 2  | 2019-09-17 | Github, binder, jupyter | Martin        |
 | 3  | 2019-10-01 | A python whirlwind        | John            |
 | 4  | 2019-10-04 | Git                          | John            |
-| 5  | 2019-10-11 | A python whirlwind (Part 2)   | John            |
-| 6  | 2019-10-18 | Booleans and Conditionals               | TBD |
-| 7  | 2019-10-25 | NumPy and Arrays                        | TBD            |
-| 8  | 2019-11-01 | Pandas and DataFrames                   | TBD |
-| 9  | 2019-11-19 | Machine Learning                        | TBD            |
-| 10 | 2019-11-27 | Data Visualization                      | TBD |
-| 11 | 2019-11-29 | Requested Topics/Final Project Clinic   | All Instructors   |
-| 13 | TBD | Student Presentations                   |                   |
-| 12 | TBD | Student Presentations                   |                   |
-| 14 | TBD | Student Presentations                   |                   |
+| 5  | 2019-10-10 | A python whirlwind (Part 2)   | John            |
+| 6  | 2019-10-17 | Bash overview, magics, iterators, pathlib | John |
+| 7  | 2019-10-24 | Using what we have learned   | John            |
+| 8  | 2019-10-31 | Private methods, and structuring our own code. | John |
+| 9  | 2019-11-07 | Another look at git | John            |
+| 10 | 2019-11-14 | Packaging our code | Ryan |
+| 11 | 2019-11-29 | Final Project Clinic   | All Instructors   |
 
 
 Homework
