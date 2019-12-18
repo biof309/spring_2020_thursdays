@@ -51,7 +51,7 @@ If you cannot find the answer, please make sure to ask your question thoughtfull
 
 In general, please use the [course gitter channel](https://gitter.im/biof309/community) to communicate with classmates and instructors. In case of personal/private question/concerns, please use the private chat functionality of gitter.
 
-In case of an emergency, please use [gitter](https://biof309.slack.com) *and* an email.
+In case of an emergency, please use [gitter](https://gitter.im/biof309) *and* an email.
 
 Logistics
 ---------
@@ -168,6 +168,8 @@ Schedule
 | 9  | 2019-11-07 | Another look at git | John            |
 | 10 | 2019-11-14 | Packaging our code | Ryan |
 | 11 | 2019-11-29 | Final Project Clinic   | All Instructors   |
+| 12 | 2019-12-05 | Final Project Clinic   | All Instructors   |
+| 13 | 2019-12-12 | Final Project Clinic   | All Instructors   |
 
 
 Homework
