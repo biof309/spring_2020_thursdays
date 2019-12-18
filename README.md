@@ -3,42 +3,40 @@ Syllabus
 
 **Introduction to Python Programming - BIOF309 - FAES**
 
-**Fall 2019**
+**Spring 2020**
 
 **Time: Thursday 6:00PM - 8:00PM**
 
 *This document is subject to revision!*
 
-Changes are tracked using the [git version control system](https://git-scm.com/).
-
-To interact with the materials in the repo online you may use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) (via [Binder](https://mybinder.org/)), by clicking the link below.
-
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/marskar/biof309_fall2019/master?urlpath=lab)
+Changes are tracked using the [git version control system](https://git-scm.com/). Material for this syllabus  is drawn from pre-existing courses [here](https://github.com/biof309/fall2019) and [here](https://github.com/marskar/biof309_fall2018)
 
 Instructors
 -----------
 
 * John Lee 
-* Ryan Patterson
-* Sydney Hertafeld
+* -
+* -
 
 Course Description
 ------------------
 
-This course is designed for non-programmers, biologists, or those without specific knowledge of Python to learn how to program.
-Week by week, we will slowly build up your skills and understanding of computer programming and the Python programming language.
-There will be in-class demonstrations, using [JupyterLab](http://jupyterlab.readthedocs.io), and activities to be completed outside of class, using [DataCamp](https://www.datacamp.com), for you to practice and learn at your own pace.
+This course is designed for non-programmers, biologists, or those without specific knowledge of Python to learn how to program. Emphasis is placed on foundational skills for automation, reproducibility, and sustainable development of code for scientific analysis.
+
+There will be in-class demonstrations, and teaching using [JupyterLab](http://jupyterlab.readthedocs.io). The course also consists of out of class learning using the [DataCamp](https://www.datacamp.com) learning platform. This allows students to practice and learn at your their pace with programming exercises that provide realtime feedback on mistakes.
 
 Learning Objectives
 -------------------
 
 By the end of this course you should be able to:
 1. Look at a task and determine if you can or should automate it
-2. Create working Python programs
-3. Understand the difference between Python object types (e.g. lists, dicts)
-4. Perform data analysis and visualization with Python
-5. Use [git](https://git-scm.com/) for version control and collaboration
-6. Demonstrate your Python skills with a project
+1. Use [git](https://git-scm.com/) for keeping track of changes in your project and collaborating with others
+1. Create working Python programs
+1. Develop strategies for leveraging pre-existing solutions to analysing your scientific data
+1. Be aware of tools and strategies that help sustainably develop robust software for scientific analysis
+1. Have a deep understanding of the basic structures in Python (e.g. lists, dicts, etc)
+1. Perform data analysis and visualization with Python
+1. Demonstrate your Python skills with a project
 
 Communication
 ------------
@@ -56,7 +54,7 @@ In case of an emergency, please use [gitter](https://gitter.im/biof309) *and* an
 Logistics
 ---------
 
-This is a one-semester course starting on the 12th of September 2019 and finishing in December 2019.
+This is a one-semester course starting on the 6th of February 2020.
 
 Unless otherwise notified classes will be held at:
 
@@ -73,12 +71,10 @@ Required Materials
 
 *Programing without a computer would be an exceptional feat.*
 
-
-
 Required software installation
 ------------------
 
-With a successful install of the required software, you should be able to open the application "Anaconda Navigator", launch a notebook, and execute a cell (Ctrl + Enter) containing the command `!git status`. The indication of success will most likely be an error telling you that your current directory is not a git repository:
+With a successful install of the required software, you should be able to open the application "Anaconda Navigator", launch a notebook, and execute a cell (Ctrl + Enter) containing the command `!git status`. The indication of success will most likely be an error telling you that your current directory is not a git repository (unless of course you are currently in a git repository):
 
 `fatal: not a git repostory (or any of the parent directories): .git`
 
@@ -92,7 +88,8 @@ Please install the following programs **BEFORE** the first class, you do **not**
 
 ## OSX (Apple) specific requirements:
 
-1. A working installation of git is required on OSX. Sometimes there is an error on Mac computers where git does not work. This can be resolved by opening the terminal application on OSX and running the command `xcode-select --install` as described [here](https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-mojave-update-xcrun-error-invalid-active-devel) and selecting "Install".
+1. A working installation of git is required on OSX. Note, this should be available by default on OSX but if it is not, this step will need admin privileges. The most frequent cause of git not being available on OSX can be fixed by the following: opening the terminal application on OSX and running the command `xcode-select --install` as described [here](https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-mojave-update-xcrun-error-invalid-active-devel) and selecting "Install". 
+2. Open a terminal and type `echo $0`. This should report /bin/bash. If this is not the case you may wish to ask your system administrator to set /bin/bash as your login shell. Alternatively, for the classes you can set the terminal to use a login shell by adding `/bin/bash -l` as a run command (in `Terminal > Preferences > Shell > Run command`).
 
 
 ## Windows
@@ -104,7 +101,7 @@ If this is not possible you can try the following alternative:
 
 2. In order to use the software you installed in step 1. within jupyter you need to make a small change to a text file (and you may have to create the text file in the first place). The first option should just work (note though that it assumes that the gitforwindows installed the program "C:\Program Files\Git\bin\bash.exe". If the command below doesn't work you may have to use the second approach and substitute the installation location noted in step 1.)
 
-    + The easiest way to do this is by executing the following command in the "gitbash" application (this will erase pre-existing setup if you have it). Right-click on your mouse is often the way to paste in gitbash. We do not advise attempting to type the command below:
+    + The easiest way to do this is by executing the following command in the "gitbash" application (this will erase pre-existing setup if you have it). Right-click on your mouse is often the way to paste in gitbash. We do not advise attempting to manually type the command below:
        
        ```if [ ! -d ~/.jupyter ]; then mkdir ~/.jupyter;fi ; curl https://afni.nimh.nih.gov/pub/dist/john/jupyter_notebook.py -o ~/.jupyter/jupyter_notebook_config.py```
 
@@ -152,30 +149,31 @@ We recommend that you avail of the following tools as they will help you in your
 
     [GitHub](https://github.com) is offering some free awesome resources to students, that might be of interest to you, depending on your background:
 
-Schedule
+Approximate Schedule (subject to substantial revision)
 --------
 
-| #  | Date       | Title                                   | Lead              |
-|----|------------|-----------------------------------------|-------------------|
-| 1  | 2019-09-12 | Introduction        | Martin            |
-| 2  | 2019-09-17 | Github, binder, jupyter | Martin        |
-| 3  | 2019-10-01 | A python whirlwind        | John            |
-| 4  | 2019-10-04 | Git                          | John            |
-| 5  | 2019-10-10 | A python whirlwind (Part 2)   | John            |
-| 6  | 2019-10-17 | Bash overview, magics, iterators, pathlib | John |
-| 7  | 2019-10-24 | Using what we have learned   | John            |
-| 8  | 2019-10-31 | Private methods, and structuring our own code. | John |
-| 9  | 2019-11-07 | Another look at git | John            |
-| 10 | 2019-11-14 | Packaging our code | Ryan |
-| 11 | 2019-11-29 | Final Project Clinic   | All Instructors   |
-| 12 | 2019-12-05 | Final Project Clinic   | All Instructors   |
-| 13 | 2019-12-12 | Final Project Clinic   | All Instructors   |
+| #  |Date| Title                                   | Lead|
+|----|----|-----------------------------------------|---------|
+|1 |2020-02-06|Introduction                                   |John|
+|2 |2020-02-13|Jupyter, python, and bash                      |John|
+|3 |2020-02-20|A python whirlwind (Part 1)                    |John|
+|4 |2020-02-27|A python whirlwind (Part 2)                    |John|
+|5 |2020-03-05|Git                                            |John|
+|6 |2020-03-12|Using what we have learned                     |John|
+|7 |2020-03-19|More advance git usage                         |John|
+|8 |2020-03-26|Private methods, and structuring our own code. |John|
+|9 |2020-04-02|A python whirlwind (Part 3)                    |John|
+|10|2020-04-09|A python whirlwind (Part 4)                    |John|
+|11|2020-04-16|Packaging python code                          |John|
+|12|2020-04-23|Final Project Clinic                           |All Instructors|
+|13|2020-04-30|Final Project Clinic                           |All Instructors|
+|14|2020-05-04|Final Project Clinic                           |All Instructors|
 
 
 Homework
 --------
 
-This semester we are continuing our free-form approach to homework assignments. The due dates below are guidelines.
+The due dates below are guidelines.
 By the end of the semester, you must complete at least one career track or at least two skills tracks on [DataCamp](https://www.datacamp.com/tracks/career).
 
 This will take 28-67 hours total to complete, depending on which you choose to do.
@@ -195,67 +193,50 @@ This will take 28-67 hours total to complete, depending on which you choose to d
 
 Please use the schedule below as a guide to which [DataCamp](https://www.datacamp.com)chapters/lessons correspond to what is covered in class.
 
-01. DUE September 13, 2019 (BEFORE Class)
+01. 2020-02-13 (BEFORE Class)
     - Install [Anaconda Scientific Python Distribution](https://www.continuum.io/downloads)
     - Install [PyCharm](https://www.jetbrains.com/student)
 
-02. DUE September 20, 2019 (BEFORE Class)
+02. 2020-02-20 (BEFORE Class)
     - [Python Basics](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics)
-    - [Python: Getting Started](https://www.pluralsight.com/courses/python-getting-started)
-    - [Python Fundamentals](https://www.pluralsight.com/courses/python-fundamentals)
     - Chapters 01-05 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 02 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-03. DUE September 27, 2019 (BEFORE Class)
+03. 2020-02-27 (BEFORE Class)
     - [Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
     - [Functions and Packages](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages)
-    - [Python – Beyond the Basics](https://www.pluralsight.com/courses/python-beyond-basics)
     - Chapter 08 & 13 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 03 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-04. DUE October 4, 2019 (BEFORE Class)
+04. 2020-03-05 (BEFORE Class)
     - [Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
     - [Logic, Control Flow and Filtering](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
-    - [The Python Developer's Toolkit](https://www.pluralsight.com/courses/python-developers-toolkit)
     - Chapter 06, 07, & 09 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
-05. DUE October 11, 2019 (BEFORE Class)
+05. 2020-03-12 (BEFORE Class)
     - Biopython TBD
     - Chapter 00-02 in [Biopython-Notebook](https://github.com/tiagoantao/biopython-notebook/tree/master/notebooks)
-    - [Unit Testing with Python](https://www.pluralsight.com/courses/unit-testing-python)
 
-06. DUE October 18, 2019 (BEFORE Class)
+06. 2020-03-19 (BEFORE Class)
     - [NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
     - Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
     - Chapter 04 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
-    - [Full Stack Web Development with Python (WEB2PY)](https://www.pluralsight.com/courses/full-stack-web-development-python-web2py)
-    - [Advanced Python](https://www.pluralsight.com/courses/advanced-python)
 
-07. DUE October 25, 2019 (BEFORE Class)
+07. 2020-03-26 (BEFORE Class)
 	- [Dictionaries & Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
 	- Chapter 03 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 	- Chapter 05-12 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
-	- [Django Fundamentals](https://www.pluralsight.com/courses/django-fundamentals-update)
 
-08. DUE November 1, 2019 (BEFORE Class)
+08. 2020-04-02 (BEFORE Class)
     - [Getting Started with Machine Learning in Python](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/getting-started-with-python)
     - [Predicting with Decision Trees](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/predicting-with-decision-trees)
     - [Improving your Predictions through Random Forests](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/improving-your-predictions-through-random-forests)
     - Chapter 05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
-    - [Testing Django Applications](https://www.pluralsight.com/courses/testing-django-applications)
 
-09. DUE November 8, 2019 (BEFORE Class)
+09. 2020-04-09 (BEFORE Class)
     - [Introduction to Data Visualization with Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
     - [Data Visualization with Seaborn](https://www.datacamp.com/courses/data-visualization-with-seaborn)
     - Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
-
-10. WORK ON FINAL PROJECTS
-Depending on your final project, you might find the following topics useful:
-	- [Error handling](https://github.com/jakevdp/WhirlwindTourOfPython/blob/master/09-Errors-and-Exceptions.ipynb)
-	- [Comprehensions](https://github.com/jakevdp/WhirlwindTourOfPython/blob/master/10-Iterators.ipynb)
-	- [Iterators](https://github.com/jakevdp/WhirlwindTourOfPython/blob/master/10-Iterators.ipynb) and [Generators](https://github.com/jakevdp/WhirlwindTourOfPython/blob/master/12-Generators.ipynb)
-	- [Regular Expressions](https://github.com/jakevdp/WhirlwindTourOfPython/blob/master/14-Strings-and-Regular-Expressions.ipynb)
-
 
 Recommended Books
 -----------------
@@ -280,18 +261,26 @@ For more information about Python, please see the official [Python Software Foun
 Grading
 -------
 
-The emphasis of the course is on learning and mastering the skills covered. We hope that everyone will be able to complete one of the Python tracks on [DataCamp](https://www.datacamp.com) and submit a final project via [GitHub](https://github.com/). If some of the material appears unclear, please ask for clarification.
+The emphasis of the course is on learning and mastering the skills covered. The grade for the course will be divided into 3 components:
+
++ Online course work. Completion of the suggested courses on Datacamp will provide 15% of the grade
++ A simple assignment during the course, submitted using github will provide up to 10% of the grade
++ The remaining 75% of the grade is based on the final project submitted via github
+
+If some of the material appears unclear, please ask for clarification.
 
 Some details regarding the final project:
 
++ Pick a project that is interesting to you. You’ll find it easier to work on if you think it is fun or solves a problem that you have encountered in your daily work. Regarding content the sky is the limit.
++ The project should be setup as a fork of (and pull request to) the [project template](https://github.com/biof309/spring2020_template_project)
 + Record your plans on github as you go
-+ Try to show weekly improvement (on github)
-+ Pay attention to what your minimally viable product is.
-+ Not creating a package is acceptable but must be justified.
-+ Joint projects looked on favorably.
++ Pay attention to what your minimally viable product is so that if you only achieve that you will at least have something to show for your efforts.
++ Pay attention to the rubric listed below
++ Not creating a formal python package is acceptable but must be justified.
++ Joint projects are looked upon favorably.
 + Breadth of python skills will be noted.
 + Having commits from instructors is fine (though you don't get points for such beautiful code).
-+ Pick a project that is interesting to you. You’ll find it easier to work on if you think it is fun or solves a problem that you have encountered in your daily work. Regarding content the sky is the limit.
++ Try to show weekly improvement (on github) during the final weeks
 
 Grading the __final project__ will be done using the following rubric:
 
@@ -299,9 +288,9 @@ Grading the __final project__ will be done using the following rubric:
   - Goals for the project are discussed and placed in the context of pre-existing work. This could take the form of other python projects or indeed software in any  language. Not reinventing the wheel is an important result of good planning   (0-5)
 
 ### Documentation
-  - Only comments embedded in the code (0-5)
-  - Objects and methods have docstrings (6-10)
-  - Documentation is thorough both in the readme and in the code itself(11-15)
+  - Comments  are embedded in the code or Objects/functions have docstrings (0-5)
+  - Comments and docstrings are used (6-10)
+  - Documentation is thorough both in the readme and in the code itself aiding interpretation of the project (11-15)
   
 ### Readability and reusability
   - The code is poorly organized and difficult to interpret (1-10)
