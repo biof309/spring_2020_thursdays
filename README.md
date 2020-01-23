@@ -71,6 +71,8 @@ Required Materials
 
 *Programing without a computer would be an exceptional feat.*
 
+Laptops are available to borrow for class on an as needed basis. There are also Data Processing Stations available to use in the library. 
+
 Required software installation
 ------------------
 
