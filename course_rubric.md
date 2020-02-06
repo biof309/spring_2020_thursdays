@@ -54,7 +54,7 @@ Please use the schedule below as a guide for what you should have covered in thi
 
 Mini-project
 --------
-
++ A rough outline of what you are planning on doing for your final project must be submitted as a pull request on github by Feb 27th.
 
 
 Final-project
