@@ -11,7 +11,7 @@ If some of the material appears unclear, please ask for clarification.
 Homework
 --------
 
-By April 23rd, you must complete 41 hours of a [career track](https://www.datacamp.com/tracks/career) on Datacamp. The [python programmer] track is recommended as it covers the content taught during the course, provides exercises to practice the newly learned skills, and covers additional material that we do not have time to cover in class.
+By April 23rd, you must complete 45 hours of a [career track](https://www.datacamp.com/tracks/career) on Datacamp. The [python programmer] track is recommended as it covers the content taught during the course, provides exercises to practice the newly learned skills, and covers additional material that we do not have time to cover in class.
 
 Note that to complete this career track for your own benefit there are a further 11 hours of courses that you are not required to complete for this class.
 
@@ -21,33 +21,34 @@ Please use the schedule below as a guide for what you should have covered in thi
     - Introduction to shell (prioritize sections 1-4)
 
 02. 2020-02-20 
-    - Conda essentials (prioritize sections 1 and 3)
+    - [Introduction to git](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
 
 03. 2020-02-27
-    - Introduction to python
+    - Conda essentials (prioritize sections 1 and 3)
 
 04. 2020-03-05
-    - Intermediate python
+    - Introduction to python
 
 05. 2020-03-12
-    - Python data science toolbox (1)
+    - Intermediate python
 
 06. 2020-03-19
-    - Python data science toolbox (2)
+    - Python data science toolbox (1)
 
 07. 2020-03-26
-    - Cleaning data in python
+    - Python data science toolbox (2)
 
 08. 2020-04-02
-    - Pandas foundations
+    - Cleaning data in python
 
 09. 2020-04-09
-    - Manipulating dataframes with pandas
+    - Pandas foundations
 
 10. 2020-04-16 
-    - Merging dataframes with pandas
+    - Manipulating dataframes with pandas
 
 11. 2020-04-23
+    - Merging dataframes with pandas
     - Hard deadline for datacamp material. All material by this time will count towards that component of the class grade.
 
 
