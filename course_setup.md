@@ -13,7 +13,7 @@ Please install the following programs **BEFORE** the first class, you do **not**
 
     The Anaconda installer will automatically install most of the software we will use during the course, including Jupyterlab.
 
-1. On Windows you are required to also install [gitforwindows](gitforwindows.org).
+1. On Windows you are required to also install [gitforwindows](https://gitforwindows.org).
 
 ###### OSX (Apple) specific details:
 
