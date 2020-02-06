@@ -84,7 +84,7 @@ Grading the __final project__ will be done using the following rubric:
   - Documentation is thorough both in the readme and in the code itself aiding interpretation of the project (11-15)
   
 ### Readability and reusability
-  - The code is poorly organized and difficult to interpret (1-10)
+  - The code is poorly organized and difficult to interpret. Marks are lost for excessive duplication in the code or output in notebooks that harms attempts to understand the flow of processing. (1-10)
   - Basic organization and modularity of the code is present (11-20)
   - Careful organization of the code (commented, well-named variables in well-named functions in well-named modules, in a package if appropriate), coupled with attention to style guides for python. (21-30)
 
