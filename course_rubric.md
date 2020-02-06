@@ -11,7 +11,7 @@ If some of the material appears unclear, please ask for clarification.
 Homework
 --------
 
-By April 23rd, you must complete 45 hours of a [career track](https://www.datacamp.com/tracks/career) on Datacamp. The [python programmer] track is recommended as it covers the content taught during the course, provides exercises to practice the newly learned skills, and covers additional material that we do not have time to cover in class.
+By April 23rd, you must complete 45 hours of a [career track](https://www.datacamp.com/tracks/career) on Datacamp. The [python programmer](https://www.datacamp.com/tracks/python-programmer) track is recommended as it covers the content taught during the course, provides exercises to practice the newly learned skills, and covers additional material that we do not have time to cover in class.
 
 Note that to complete this career track for your own benefit there are a further 11 hours of courses that you are not required to complete for this class.
 
@@ -73,27 +73,35 @@ Some details regarding the final project:
 + Having commits from instructors is fine (though you don't get points for such beautiful code).
 + Try to show weekly improvement (on github) during the final weeks
 
-Grading the __final project__ will be done using the following rubric:
+Grading the __final project__ will be done using the following rubric (Note that the marks sum to 100. This is the percentage points of the marks available for the final project):
 
-### Project description / Specification
+##### Project description / Specification
   - Goals for the project are discussed and placed in the context of pre-existing work. This could take the form of other python projects or indeed software in any  language. Not reinventing the wheel is an important result of good planning   (0-5)
 
-### Documentation
+##### Documentation
   - Comments  are embedded in the code or Objects/functions have docstrings (0-5)
   - Comments and docstrings are used (6-10)
   - Documentation is thorough both in the readme and in the code itself aiding interpretation of the project (11-15)
   
-### Readability and reusability
+##### Readability and reusability
   - The code is poorly organized and difficult to interpret. Marks are lost for excessive duplication in the code or output in notebooks that harms attempts to understand the flow of processing. (1-10)
   - Basic organization and modularity of the code is present (11-20)
   - Careful organization of the code (commented, well-named variables in well-named functions in well-named modules, in a package if appropriate), coupled with attention to style guides for python. (21-30)
 
-### Testing
+##### Testing
    Marks will not necessarily be lost for failing tests.
-  - Tests should cover a significant fraction of the python code used. (0-10)
-  - Tests have aided development and have helped discover bugs in the code (11-20)
+  - Tests should cover a significant fraction of the python code used. (0-5)
+  - Tests have aided development and have helped discover bugs in the code (6-10)
 
-### "The product"
+##### Gradual progress
+- Little evidence of work on the project until the last week or two of term (0-5)
+- Progress has been persistent indicating planning and continuous effort (6-10):
+  - Evidence of gradual work following the mini-project exists
+  - 2 weeks from the deadline there are passing tests, a working package, and a skeleton of code
+  - 1 week before the deadline a working product exists in the codebase.
+ 
+
+##### "The product"
    - The code technically works but does not show evidence of engagement (1-5)
   - The project checks the boxes in the rubric effectively and is nicely implemented (6-10)
   - The code attempts to solve a real-life problem, shows great progress both inside and outside class over the weeks of the project (11-20)
