@@ -53,16 +53,16 @@ Approximate Schedule (subject to substantial revision)
 | #  |Date| Title                                   | Lead|
 |----|----|-----------------------------------------|---------|
 |1 |2020-02-06|Introduction                                   |John|
-|2 |2020-02-13|Jupyter, python, and bash                      |*|
-|3 |2020-02-20|A python whirlwind (Part 1)                    |John|
-|4 |2020-02-27|A python whirlwind (Part 2)                    |John|
-|5 |2020-03-05|Git                                            |John|
-|6 |2020-03-12|Using what we have learned                     |John|
-|7 |2020-03-19|More advance git usage                         |John|
-|8 |2020-03-26|Private methods, and structuring our own code. |*|
-|9 |2020-04-02|A python whirlwind (Part 3)                    |*|
-|10|2020-04-09|A python whirlwind (Part 4)                    |John|
-|11|2020-04-16|Packaging python code                          |John|
+|2 |2020-02-13| --                                            |*|
+|3 |2020-02-20|Jupyter, python, bash                          |John|
+|4 |2020-02-27|Using git for version control                  |John|
+|5 |2020-03-05|A python whirlwind (Part 1)                    |John|
+|6 |2020-03-12|A python whirlwind (Part 2)                    |John|
+|7 |2020-03-19|Packaging python code                          |John|
+|8 |2020-03-26| --                                            |*|
+|9 |2020-04-02| --                                            |*|
+|10|2020-04-09|Using what we have learned                     |John|
+|11|2020-04-16|Private methods, and structuring our own code. |John|
 |12|2020-04-23|Final Project Clinic                           |All Instructors|
 |13|2020-04-30|Final Project Clinic                           |All Instructors|
 |14|2020-05-04|Final Project Clinic                           |All Instructors|
