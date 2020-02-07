@@ -12,7 +12,7 @@ Instructors
 
 * John Lee 
 * Emily Yaklich (TA)
-* Suhwan Lee(TA)
+* Suhwan Lee(TA, AKA Paul)
 
 Course Description
 ------------------
