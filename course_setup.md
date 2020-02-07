@@ -6,7 +6,11 @@ With a successful install of the required software, you should be able to open t
 
 `fatal: not a git repostory (or any of the parent directories): .git`
 
-If this is not the case you should continue reading this. Please install the following programs **BEFORE** the first class, you do **not** need admin privileges to do this. The Anaconda installer will automatically install most of the software we will use during the course, including Jupyterlab. On Windows you are required to also install [gitforwindows](gitforwindows.org). Please follow the operating specific instructions below.
+Additionally you should have write access to the conda software environment. The following command should succeed with no errors:
+
+`conda install -c conda-forge git`
+
+If one of these tests is not the case you should continue reading this. Please install the following programs **BEFORE** the first class, you do **not** need admin privileges to do this (this seems not to be the case for some Windows systems). The Anaconda installer will automatically install most of the software we will use during the course, including Jupyterlab. On Windows you are required to also install [gitforwindows](gitforwindows.org). Please follow the operating specific instructions below.
 
 ###### OSX (Apple) specific details:
 
@@ -29,7 +33,7 @@ If this is not the case you should continue reading this. Please install the fol
 
     + Another way to configure your installation (following step 3) is to open the file ~/.jupyter/jupyter_notebook_config.py in a text editor and add the line described [here](https://medium.com/@konpat/using-git-bash-in-jupyter-noteobok-on-windows-c88d2c3c7b07).
 
-3. The [Anaconda Scientific Python Distribution](https://www.anaconda.com/download/) (the python3 version). The easiest way to get Anaconda working well for your usage in class is to select “Add Anaconda to my PATH environment variable” during the installation as described [here](https://stackoverflow.com/questions/54501167/anaconda-and-git-bash-in-windows-conda-command-not-found). Otherwise you can follow the configuration described [here](https://stackoverflow.com/questions/54501167/anaconda-and-git-bash-in-windows-conda-command-not-found).
+3. The [Anaconda Scientific Python Distribution](https://www.anaconda.com/download/) (the python3 version). The easiest way to get Anaconda working well for your usage in class is to **select “Add Anaconda to my PATH environment variable”** during the installation as described [here](https://stackoverflow.com/questions/54501167/anaconda-and-git-bash-in-windows-conda-command-not-found). Otherwise you can follow the configuration described [here](https://stackoverflow.com/questions/54501167/anaconda-and-git-bash-in-windows-conda-command-not-found).
 
 ###### Linux
 
