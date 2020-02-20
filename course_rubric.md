@@ -11,7 +11,7 @@ If some of the material appears unclear, please ask for clarification.
 Homework
 --------
 
-By April 23rd, you must complete 45 hours of a [career track](https://www.datacamp.com/tracks/career) on Datacamp. The [python programmer](https://www.datacamp.com/tracks/python-programmer) track is recommended as it covers the content taught during the course, provides exercises to practice the newly learned skills, and covers additional material that we do not have time to cover in class.
+By April 23rd, you must complete 45 hours of a career track on Datacamp. The [python programmer](https://www.datacamp.com/tracks/python-programmer) track is recommended as it covers the content taught during the course, provides exercises to practice the newly learned skills, and covers additional material that we do not have time to cover in class.
 
 Note that to complete this career track for your own benefit there are a further 11 hours of courses that you are not required to complete for this class.
 
