@@ -63,7 +63,7 @@ Final-project
 Some details regarding the final project:
 
 + Pick a project that is interesting to you. You’ll find it easier to work on if you think it is fun or solves a problem that you have encountered in your daily work. Regarding content the sky is the limit.
-+ The project should be setup as a fork of (and pull request to) the [project template](https://github.com/biof309/spring2020_template_project)
++ The project should be setup as a fork of (and pull request to) the [project template](https://github.com/biof309/project_spring_2020)
 + Record your plans on github as you go
 + Pay attention to what your minimally viable product is so that if you only achieve that you will at least have something to show for your efforts.
 + Pay attention to the rubric listed below
