@@ -2,6 +2,7 @@
 __pycache__
 .DS_Store
 .mypy_cache
-.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.ipynb_checkpoints
 .python-version
 Whirlwind*
