@@ -65,7 +65,7 @@ Approximate Schedule (subject to substantial revision)
 |11|2020-04-16|Private methods, and structuring our own code. |John|
 |12|2020-04-23|Final Project Clinic                           |All Instructors|
 |13|2020-04-30|Final Project Clinic                           |All Instructors|
-|14|2020-05-04|Final Project Clinic                           |All Instructors|
+|14|2020-05-07|Final Project Clinic                           |All Instructors|
 
 
 Grading
