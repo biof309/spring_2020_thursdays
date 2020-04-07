@@ -58,15 +58,14 @@ Approximate Schedule (subject to substantial revision)
 |4 |2020-02-27|Using git for version control                  |John|
 |5 |2020-03-05|A python whirlwind (Part 1)                    |John|
 |6 |2020-03-12|A python whirlwind (Part 2)                    |John|
-|7 |2020-03-19|Packaging python code                          |John|
-|8 |2020-03-26| --                                            |*|
-|9 |2020-04-02| --                                            |*|
-|10|2020-04-09|Using what we have learned                     |John|
-|11|2020-04-16|Private methods, and structuring our own code. |John|
+|7 |2020-03-19|Practicing the basics                          |John|
+|8 |2020-03-26|Importing and comprehensions                   |John,Emily,Paul|
+|9 |2020-04-02|Testing for errors                             |John|
+|10|2020-04-09|Packaging python code                          |John|
+|11|2020-04-16| ?                                             |John|
 |12|2020-04-23|Final Project Clinic                           |All Instructors|
 |13|2020-04-30|Final Project Clinic                           |All Instructors|
 |14|2020-05-07|Final Project Clinic                           |All Instructors|
-
 
 Grading
 -------
